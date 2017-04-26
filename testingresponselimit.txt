@@ -42,7 +42,7 @@
     "address": "550 Holly Street, Bladensburg, Arizona, 7353",
     "phone": "+1 (880) 496-2090",
     "email": "letha.moran@medesign.com",
-    "company": "MEDESIGN",
+    "company": "CatchpointFirstTime123",
     "name": {
       "last": "Moran",
       "first": "Letha"
