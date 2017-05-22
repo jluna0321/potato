@@ -5808,10 +5808,12 @@ require({
                 })
             })
         },
-        "tt/form/WorkflowForm": function () {
+sl_tr_start();
+            "tt/form/WorkflowForm": function () {
             define("dojo/_base/declare dojo/request/xhr dojo/dom-form dojo/_base/lang dojo/_base/array dojo/query dijit/focus dijit/a11yclick dojo/dom-geometry dojo/dom-construct dojo/on dijit/registry dijit/form/Form dojo/has tt/Dialog".split(" "), function (b,
                 p, l, n, h, k, g, e, f, a, m, d, c, v, q) {
                 return b("tt.form.WorkflowForm", c, {
+                   
                     loadingLabelText: "Loading",
                     nextBtnEventHandle: null,
                     content: "",
@@ -5823,6 +5825,7 @@ require({
                                 return !0
                             }))
                         }
+                        sl_tr_end();
                         this.validate() ? (b = k("#nextBtn", this.domNode)[0], this.animateLoading(b), this.ajaxSubmit()) : this.resetLoading()
                     },
                     isServerSideValidateableElement: function (a) {
